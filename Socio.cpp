@@ -1,39 +1,43 @@
+#include <string.h>
+
 #include "Socio.h"
+
+using namespace std;
 
 Socio::Socio(){
     this->ci="Default CI";
     this->nombre="Default Nombre";
-    this->FechaIngreso->DtFecha();
+    this->fechaIngreso=DtFecha();
 }
 
 Socio::Socio(string c, string n, DtFecha f){
     this->ci=c;
-    this->nombre->n;
-    this->FechaIngreso->f;
+    this->nombre=n;
+    this->fechaIngreso=f;
 }
 
-Socio::setCI(string c){
+void Socio::setCI(string c){
     this->ci=c;
 }
 
-Socio::getCI(){
+string Socio::getCI(){
     return this->ci;
 }
 
-Socio::setNombre(string n){
+void Socio::setNombre(string n){
     this->nombre=n;
 }
 
-Socio::getNombre(){
+string Socio::getNombre(){
     return this->nombre;
 }
 
-Socio::setFechaIngreso(DtFecha f){
-    this->FechaIngreso=f;
+void Socio::setFechaIngreso(DtFecha f){
+    this->fechaIngreso=f;
 }
 
-Socio::getFechaIngreso(){
-    return this->FechaIngreso;
+DtFecha Socio::getFechaIngreso(){
+    return this->fechaIngreso;
 }
 
 Socio::~Socio(){
