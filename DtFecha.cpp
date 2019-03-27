@@ -12,17 +12,15 @@ DtFecha::DtFecha(int d, int m, int a){
     this->anio=a;
 }
 
-DtFecha::getDia(){
+int DtFecha::getDia(){
     return this->dia;
 }
 
-
-DtFecha::getMes(){
+int DtFecha::getMes(){
     return this->mes;
 }
 
-
-DtFecha::getAnio(){
+int DtFecha::getAnio(){
     return this->anio;
 }
 
