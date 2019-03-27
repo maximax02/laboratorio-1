@@ -1,5 +1,10 @@
-#indef MASCOTA
+#ifndef MASCOTA
 #define MASCOTA
+
+#include <string>
+#include "Genero.h"
+
+using namespace std;
 
 class Mascota{
     private:
