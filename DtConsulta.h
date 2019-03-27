@@ -1,4 +1,4 @@
-#indef DTCONSULTA
+#ifndef DTCONSULTA
 #define DTCONSULTA
 
 class DtConsulta{
