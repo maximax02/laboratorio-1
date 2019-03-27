@@ -1,4 +1,4 @@
-#indef DTFECHA
+#ifndef DTFECHA
 #define DTFECHA
 
 class DtFecha{
